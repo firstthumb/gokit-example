@@ -1,0 +1,15 @@
+syntax = "proto3";
+package proto;
+
+service Github {
+  rpc GetRepositories (GithubSearchRequest) returns (GithubSearchResponse) {}
+}
+
+message GithubSearchRequest {
+  string s = 1;
+}
+
+message GithubSearchResponse {
+  string v = 1;
+  string err = 2;
+}
