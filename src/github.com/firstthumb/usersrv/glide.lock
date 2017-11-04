@@ -1,0 +1,28 @@
+hash: 4292ffbaa5a2674292c35ea7a11484ad3ee45e6795b3e9b20e10c5ec1aff6133
+updated: 2017-11-04T20:32:21.967739+02:00
+imports:
+- name: github.com/go-kit/kit
+  version: 4dc7be5d2d12881735283bcab7352178e190fc71
+  subpackages:
+  - endpoint
+  - log
+  - transport/http
+- name: github.com/go-logfmt/logfmt
+  version: 390ab7935ee28ec6b286364bba9b4dd6410cb3d5
+- name: github.com/go-stack/stack
+  version: 817915b46b97fd7bb80e8ab6b69f01a53ac3eebf
+- name: github.com/google/go-github
+  version: 35c06c17eff17d6ba18c6d8c5a84827f8ecf8679
+  subpackages:
+  - github
+- name: github.com/google/go-querystring
+  version: 53e6ce116135b80d037921a7fdd5138cf32d7a8a
+  subpackages:
+  - query
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: 7625a85c14e615274a4ee4bc8654f72310a563e4
+- name: github.com/kr/logfmt
+  version: b84e30acd515aadc4b783ad4ff83aff3299bdfe0
+testImports: []
